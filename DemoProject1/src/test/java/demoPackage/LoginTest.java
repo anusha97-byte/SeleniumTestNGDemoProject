@@ -54,4 +54,11 @@ public class LoginTest extends Base
 		WebElement signin=driver.findElement(By.xpath("//button[@type='submit']"));
 		signin.click();
 	}
+	@Test
+	public void loginWithNoCredentials()
+	{
+		
+		WebElement signin=driver.findElement(By.xpath("//button[@type='submit']"));
+		signin.click();
+	}
 }
